@@ -1,0 +1,141 @@
+# ── Secrets & credentials ────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-wheel-metadata/
+.installed.cfg
+MANIFEST
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+venv.bak/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Testing & coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ── Linting / type-checking ───────────────────────────────────────────────────
+.mypy_cache/
+.ruff_cache/
+
+# ── Large data files (full datasets — host on HuggingFace, not GitHub) ────────
+# Keep: data/sample/ and data/schemas/
+benchmark_data/CUSP/merged_validated_cusp_fixed.jsonl
+benchmark_data/CUSP/merged_validated_cusp.jsonl
+benchmark_data/CUSP/CUSP_with_other.jsonl
+benchmark_data/CUSP/CUSP_with_other_2024_onwards.jsonl
+benchmark_data/all_data/
+benchmark_data/*/binary_outputs/
+benchmark_data/*/mcq_outputs/
+benchmark_data/*/frq_outputs/
+benchmark_data/*/date_pred_outputs/
+
+# ── Model outputs & evaluation logs (too large / generated) ──────────────────
+benchmark_logs/model_outputs/
+benchmark_logs/predictions_*.jsonl
+benchmark_logs/summary_*.json
+model_results/
+run_evaluation/frq_results/
+run_evaluation/new_results/
+run_evaluation/model_results/
+
+# ── Figures & plots (generated — reproduce with scripts) ─────────────────────
+figures/
+multi_figures/
+benchmark_logs/comparison_figures/
+benchmark_logs/plots/
+run_evaluation/figures/
+run_evaluation/my_figures/
+run_evaluation/frq_results/comparison_figures/
+run_evaluation/frq_results/figures_web_search_comparison/
+run_evaluation/new_results/comparison_figures/
+visualize_cusp/output/
+visualize_cusp/output_cusp_2024/
+subdomain_analysis/
+
+# ── Scraped paper content (copyrighted — reproduce with scripts) ─────────────
+scientific_findings/
+
+# ── Generated LaTeX auxiliary files ──────────────────────────────────────────
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+run_evaluation/model_results/tables/
+
+# ── Run logs ──────────────────────────────────────────────────────────────────
+*.log
+*.out
+nohup.out
+eval*.log
+
+# ── Local caches ─────────────────────────────────────────────────────────────
+create_forecast/.cache.json
+scrape_scripts/data/
+scrape_scripts/scrape_weekly_ai/raw_html/
+create_forecast/benchmark_logs/
+.cache/
+
+# ── OS artifacts ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── wandb & experiment trackers ──────────────────────────────────────────────
+wandb/
+mlruns/
+
+# ── Archive folder (kept locally, not for GitHub) ────────────────────────────
+archive/
+
+# Canonical full dataset (too large for GitHub — host on HuggingFace)
+data/canonical/
+data/source/*.jsonl
+# Keep sample data committed:
+!data/sample/
+
+# Human evaluator data (contains names/affiliations — keep private)
+human_evaluation/
+*_evaluators.csv
