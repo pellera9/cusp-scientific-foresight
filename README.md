@@ -69,7 +69,7 @@ Set `OPENAI_API_KEY` or `AZURE_OPENAI_KEY` in your environment or a `.env` file.
 
 ```bibtex
 @misc{cusp2026,
-  title   = {CUSP: Cutoff-conditioned Unseen Scientific Progress},
+  title   = {Forecasting Scientific Progress with Artificial Intelligence},
   author  = {Wu, Sean and Lu, Pan and Chen, Yupeng and Bragg, Jonathan and
              Yamada, Yutaro and Clifton, David and Torr, Philip and
              Zou, James and Yu, Junchi},
