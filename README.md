@@ -2,9 +2,17 @@
 
 **CUSP** is a benchmark for evaluating whether AI systems can forecast scientific progress under historical knowledge cutoffs.
 
-> **Paper:** Coming soon  
-> **Dataset:** [huggingface.co/datasets/SeanWu25/CUSP](https://huggingface.co/datasets/SeanWu25/CUSP)
-
+<p align="left">
+  <a href="https://arxiv.org/abs/XXXX.XXXXX">
+    <img src="https://img.shields.io/badge/arXiv-paper-red?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv" />
+  </a>
+  <a href="https://seanwu25.github.io/CUSP-Science/">
+    <img src="https://img.shields.io/badge/Website-project%20page-blue?style=for-the-badge&logo=githubpages&logoColor=white" alt="Project page" />
+  </a>
+  <a href="https://huggingface.co/datasets/SeanWu25/CUSP">
+    <img src="https://img.shields.io/badge/Hugging%20Face-dataset-yellow?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face dataset" />
+  </a>
+</p>
 <img width="7252" height="3866" alt="CUSP_Fig_1 (1)" src="https://github.com/user-attachments/assets/e2c9cb9d-e526-4a52-bbf9-4df4fac53951" />
 
 ## Load the Dataset
