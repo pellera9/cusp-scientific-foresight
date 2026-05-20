@@ -41,17 +41,6 @@ pip install -r requirements.txt
 jupyter notebook notebooks/quickstart.ipynb
 ```
 
-## Evaluate a Model
-
-Both scripts automatically download the dataset from HuggingFace if no path is given.
-
-```bash
-# Step 1: generate predictions (dataset auto-downloaded)
-python scripts/test_LLM.py --model gpt-4o --output predictions.jsonl
-
-# Step 2: evaluate with LLM judge
-python scripts/eval.py --predictions predictions.jsonl --output report.json --pretty
-```
 
 Set `OPENAI_API_KEY` or `AZURE_OPENAI_KEY` in your environment or a `.env` file.
 
