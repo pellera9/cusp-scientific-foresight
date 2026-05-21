@@ -75,6 +75,3 @@ Set `OPENAI_API_KEY` or `AZURE_OPENAI_KEY` in your environment or a `.env` file.
 }
 ```
 
-## License
-
-MIT
