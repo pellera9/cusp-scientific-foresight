@@ -65,13 +65,14 @@ Set `OPENAI_API_KEY` or `AZURE_OPENAI_KEY` in your environment or a `.env` file.
 ## Citation
 
 ```bibtex
-@misc{cusp2026,
-  title   = {Forecasting Scientific Progress with Artificial Intelligence},
-  author  = {Wu, Sean and Lu, Pan and Chen, Yupeng and Bragg, Jonathan and
-             Yamada, Yutaro and Clifton, David and Torr, Philip and
-             Zou, James and Yu, Junchi},
-  year    = {2026},
-  note    = {Preprint}
+@misc{wu2026forecastingscientificprogressartificial,
+      title={Forecasting Scientific Progress with Artificial Intelligence}, 
+      author={Sean Wu and Pan Lu and Yupeng Chen and Jonathan Bragg and Yutaro Yamada and Peter Clark and David Clifton and Philip Torr and James Zou and Junchi Yu},
+      year={2026},
+      eprint={2605.22681},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2605.22681}, 
 }
 ```
 
