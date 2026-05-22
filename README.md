@@ -3,7 +3,7 @@
 **CUSP** is a benchmark for evaluating whether AI systems can forecast scientific progress under historical knowledge cutoffs.
 
 <p align="left">
-  <a href="https://arxiv.org/abs/XXXX.XXXXX">
+  <a href="https://arxiv.org/abs/2605.22681">
     <img src="https://img.shields.io/badge/arXiv-paper-red?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv" />
   </a>
   <a href="https://seanwu25.github.io/CUSP-Science/">
